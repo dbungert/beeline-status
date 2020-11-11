@@ -24,6 +24,8 @@ function! s:get_mode()
 	return get(s:modes, mode(), mode())
 endfunction
 
+" modes list adapted from vim-airline
+" MIT License. Copyright (c) 2013-2020 Bailey Ling et al.
 let s:modes = {
 	\ 'n':  'NORMAL',
 	\ 'i':  'INSERT',
